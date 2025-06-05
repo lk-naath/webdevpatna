@@ -1,0 +1,23 @@
+* {
+    color: white;
+    background-color: black;
+}
+
+/* .input::placeholder {
+    display: inline;
+    background-color: rgb(164, 99, 99);
+    color: rgb(255, 0, 0);
+}
+
+.input:hover::placeholder {
+    background-color: rgb(190, 178, 178);
+    color: white;
+    cursor: pointer;
+} */
+
+
+#input::placeholder {
+    display: inline;
+    background-color: rgb(164, 99, 99);
+    color: rgb(255, 0, 0); 
+}
