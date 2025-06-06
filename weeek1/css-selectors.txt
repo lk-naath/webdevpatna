@@ -1,0 +1,52 @@
+🔹 BASIC SELECTORS
+---------------------
+*               → universal selector
+element         → type selector (e.g., p, div)
+.class          → class selector
+#id             → ID selector
+
+🔹 GROUP & COMBINATORS
+---------------------
+A, B            → group selector (select A and B)
+A B             → descendant selector (B inside A)
+A > B           → direct child selector
+A + B           → adjacent sibling (B right after A)
+A ~ B           → general sibling (any B after A)
+
+🔹 ATTRIBUTE SELECTORS
+---------------------
+[attr]              → has attribute
+[attr="value"]      → exact match
+[attr^="value"]     → starts with value
+[attr$="value"]     → ends with value
+[attr*="value"]     → contains value
+
+🔹 PSEUDO-CLASSES
+---------------------
+:hover              → when hovered
+:active             → when active (e.g., clicked)
+:focus              → when focused (e.g., input)
+:first-child        → first child of parent
+:last-child         → last child of parent
+:nth-child(n)       → nth child
+:nth-of-type(n)     → nth of that type
+:not(selector)      → not matching selector
+:checked            → checked checkbox/radio
+:disabled           → disabled input
+:empty              → element has no children
+
+🔹 PSEUDO-ELEMENTS
+---------------------
+::before            → insert content before element
+::after             → insert content after element
+::first-letter      → style first letter
+::first-line        → style first line
+::selection         → selected/highlighted text
+::placeholder       → placeholder text in input
+
+🔹 ADVANCED (CSS4+)
+---------------------
+:is(A, B)           → match any of A or B
+:where(A, B)        → same as :is, but no specificity
+:has(B)             → parent with child B (limited support)
+:root               → root element (usually html)
