@@ -1,0 +1,20 @@
+🔹 COMMON DISPLAY VALUES
+---------------------
+block           → starts on a new line, full width
+inline          → flows with text, only as wide as content
+inline-block    → inline flow, block box model
+none            → element is removed from layout
+
+🔹 FLEX & GRID LAYOUT
+---------------------
+flex            → enables Flexbox layout
+inline-flex     → flex but behaves like inline
+grid            → enables CSS Grid layout
+inline-grid     → grid but behaves like inline
+subgrid         → inherits parent grid tracks
+
+🔹 GLOBAL VALUES
+---------------------
+inherit         → inherits from parent
+initial         → resets to default
+unset           → removes applied value (inherit/initial)
